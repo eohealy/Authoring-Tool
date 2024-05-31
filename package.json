@@ -1,0 +1,31 @@
+{
+  "name": "cti-authoring-tool",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "release": "standard-version"
+  },
+  "author": "mcarenzo",
+  "dependencies": {
+    "enhanced-resolve": "^4.5.0",
+    "tslib": "^2.6.2",
+    "vue": "^3.2.26",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/resize-observer-browser": "^0.1.7",
+    "@vue/cli-plugin-typescript": "~4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.4.21",
+    "standard-version": "^9.3.2",
+    "typescript": "^4.8.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
